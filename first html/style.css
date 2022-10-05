@@ -1,0 +1,45 @@
+body{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    white-space: normal
+    ;
+   
+    
+}
+
+.list {
+    border: 1px solid white;
+    margin-bottom: 5px;
+    
+    font-size: large;
+    text-align: left;
+    font-style: bold;
+    height: 0%;
+    padding-bottom: 8%;
+    margin: 2%;
+    white-space: normal;
+ //i cant get the list to stay in the outlined box. its really just a border, so maybe thats my problem with defining it?   
+}
+.blog-p {
+    text-align: center;
+    font-size: 35;
+
+    width: fit-content;
+    border: 1px solid white;
+    margin: 2%;
+    height: 0%;
+    padding-bottom: 7%;
+    overflow: auto;
+   
+}
+.blog-title {
+    font-size:18;
+    margin: 2%;
+}
+.img-apex {
+    border: 1px solid white;
+    height: 360px;
+    margin: 2%;
+ //i cant get the image to fill out the whole box.    
+}
