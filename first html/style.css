@@ -2,24 +2,16 @@ body{
     font-weight: bold;
     color: white;
     background-color: black;
-    white-space: normal
-    ;
-   
-    
+    white-space: normal;
 }
-
 .list {
     border: 1px solid white;
-    margin-bottom: 5px;
-    
     font-size: large;
     text-align: left;
     font-style: bold;
-    height: 0%;
-    padding-bottom: 8%;
     margin: 2%;
-    white-space: normal;
- //i cant get the list to stay in the outlined box. its really just a border, so maybe thats my problem with defining it?   
+    /* I think i fixed the text overflowing from the border by 
+    taking out my whitespace:normal command. */
 }
 .blog-p {
     text-align: center;
@@ -31,7 +23,6 @@ body{
     height: 0%;
     padding-bottom: 7%;
     overflow: auto;
-   
 }
 .blog-title {
     font-size:18;
@@ -39,7 +30,9 @@ body{
 }
 .img-apex {
     border: 1px solid white;
+    width: fit-content;
     height: 360px;
+    background-image: url(https://picfiles.alphacoders.com/230/230558.jpg);
+    background-size: cover;
     margin: 2%;
- //i cant get the image to fill out the whole box.    
 }
