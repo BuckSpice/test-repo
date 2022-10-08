@@ -1,38 +1,64 @@
 body{
     font-weight: bold;
-    color: white;
+    color: ivory;
     background-color: black;
     white-space: normal;
 }
+.blog-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+}
 .list {
-    border: 1px solid white;
+    /*why does the style in my html look different from my 
+    style stated here regarding the "list texts".*/
+    border: 1px solid black;
     font-size: large;
     text-align: left;
     font-style: bold;
     margin: 2%;
     /* I think i fixed the text overflowing from the border by 
     taking out my whitespace:normal command. */
-}
+    }
+
 .blog-p {
     text-align: center;
     font-size: 35;
 
     width: fit-content;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 2%;
     height: 0%;
     padding-bottom: 7%;
-    overflow: auto;
-}
+    overflow: auto;}
+
 .blog-title {
     font-size:18;
-    margin: 2%;
-}
-.img-apex {
+    margin: 2%;}
+
+/*.img-apex {
     border: 1px solid white;
     width: fit-content;
     height: 360px;
     background-image: url(https://picfiles.alphacoders.com/230/230558.jpg);
     background-size: cover;
     margin: 2%;
-}
+
+    "completly useless code. and needs to be deleted. line 20 was all i 
+    needed to add."
+} */
+
+.members {
+    height: 0px;
+    width: 13%;
+    border: 2px solid #632400;
+    margin: 30px 50px;
+    padding-top: 4px;
+    padding-left: 6px;
+    float: left;
+    overflow:auto;
+    padding-bottom: 30%;
+ }
+/* I worked on a way to get rid of that ugly scrolling bar for a while
+and never found a work around to it so i gave up.  */
+
+

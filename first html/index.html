@@ -5,19 +5,32 @@
     </head>
     <body>
       <div>
-        <h1 class="blog-title"> Apex legends</h1>
+        <h1 class="blog-title"> Apex<br/>
+           legends</h1>
       </div>
+
       <div class="list">
         <ol>
-          <li id="l1">home page</li>
-          <li id="l2">Join the Club</li>
-          <li id="l3">Play Apex Legends</li>
+          <!-- pointless to add more buttons to list,'homepage'is there already,
+          'join the club' club is on xbox, no way to get there.  -->
+          <li id="l1">HOME PAGE</li>
+          <li id="l2">JOIN THE CLUB</li>
+          <li id="l3"><a href="https://www.ea.com/games/apex-legends"
+            target="blank">
+             <button style="background-color:black; color: white;
+             font-size: large;font-style: bold; border-color: beige;"
+             >PLAY APEX LEGENDS</button></li></a>
         </ol>
       </div>
+
       <div  class="img-apex">
-        <img
-        src="https://picfiles.alphacoders.com/230/230558.jpg"
-      
+        <img 
+        src="https://picfiles.alphacoders.com/230/230558.jpg" 
+        style="width: 100%; height: auto;"
+        />
+         <!-- you have no idea how long it took me to figure out that 'width 100%'
+        was what i needed to make that image compress along with the browser,fuck me.-->
+        
       <div class="blog-post">
         <p class="blog-p"> To become an Apex Legend, survive the Ring and be that
         last squad standing! Work with a team of three to survive the harsh enviornments
@@ -26,5 +39,40 @@
         Sign up with our clubs ID code and recieve literally 0% off your purchase you cheap scumbag!
         </p> 
       </div>
+
+      <!-- I tried to make a parent div with a class "members", but that stacked
+        all of the divs on top of each other?"
+      so there was only 1 border-outline but with all 4 names inside it. -->
+      
+        <div  class="members">
+          BuckSpice<img 
+          src="https://www.mandatory.gg/wp-content/uploads/apexlegends-characters-mirage-portrait.png" style="width: 100%; height: auto;"/>
+         <div id="B" >
+          Team leader, and overall strat caller. Tends to leave his teammates behind. 
+         </div>
+        </div>
+         <div id="A" class="members">
+        Angry Ginger
+        <img src="https://www.mandatory.gg/wp-content/uploads/apexlegends-characters-fuse-portrait.png" style="width: 100%; height: auto;">
+         <div>
+          Don't play with him if he's not high as a kite. Doesn't have a stealthy bone in his body.
+         </div>
+      </div>
+         <div id="L" class="members">
+        Unhappy Larry
+        <img src="https://www.mandatory.gg/wp-content/uploads/apexlegends-characters-caustic-portrait-1.png" style="width: 100%; height: auto;">
+        <div>
+          The backbone of the crew, he's got "support player" tattooed on his ass.
+        </div>
+      </div>
+         <div id="P" class="members">
+         Platypus Ghost
+         <img src="https://www.mandatory.gg/wp-content/uploads/apexlegends-characters-loba-portrait.png" style="width: 100%; height: auto;">
+         <div>
+         I have no idea what this guy does. seriously who is he? 
+        </div>
+       <!-- I dont like how these borders are not centered
+         but i'm not wasting time to figure that out. -->
+    
     </body>
 </html>
