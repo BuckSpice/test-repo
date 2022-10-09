@@ -8,9 +8,30 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-style: italic;
 }
+#overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#modal{
+    max-width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
 .list {
-    /*why does the style in my html look different from my 
-    style stated here regarding the "list texts".*/
     border: 1px solid black;
     font-size: large;
     text-align: left;
