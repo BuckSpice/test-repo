@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'> 
+        <script src="home.js"></script>
+      <title>Login</title>
+    </head>
+    <body id="login-css">
+        <!-- style="border-color:white; border-width: 2px; 
+    border-style: solid;" i thought to add that to the body;
+     But i dont know how to get it to just go
+around the center text. -->
+       <div class="form">
+        <h1>LOGIN HERE</h1>
+        <P>Username :</P>
+        <input type="text" name="" placeholder="Name Here">
+        <p>Password :</p>
+        <input type="password" name="" placeholder="Password Here" id="pass">
+        <input type="checkbox" onclick="myfunction()">
+        <input type="submit" name="" value="LOGIN" onclick="validate()">
+       </div> 
+
+       <div>
+        <!-- console error when i click the 'login' button
+            TypeError: Cannot read properties of undefined (reading 'length') home.js:37 -->
+        <p id="length"></p>
+       </div>
+    </body>
+</html>
