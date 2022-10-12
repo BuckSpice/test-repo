@@ -1,7 +1,7 @@
 <html>
     <head>
       <link rel='stylesheet' href='style.css'>
-        <title>Apex Legends</title>
+      <title>Apex Legends</title>
     </head>
     <body>
       <div>
@@ -16,17 +16,25 @@
              <button id ="show-modal-l1" style="background-color:black; color: white;
              font-size: large;font-style: bold; border-color: beige;"
              >HOME PAGE</button>
-             <div id="overlay">
-               <div id="modal">
+             <div class="overlay">
+               <div class="modal">
                 <button id="close-modal-l1">Close</button>
                 <H1>You're already here, congrats!</H1>
                </div>
              </div>
-            </li></a>
+            </li>
              
-          <li id="l2"><button style="background-color:black; color: white;
+          <li id="l2"><button id ="show-modal-l2" style="background-color:black; color: white;
             font-size: large;font-style: bold; border-color: beige;"
-            >JOIN THE CLUB</button></li></a>
+            >JOIN THE CLUB</button>
+            <div class="overlay">
+              <div class="modal">
+               <button id="close-modal-l2">Close</button>
+               <H1>You'll need an Xbox.</H1>
+              </div>
+            </div>
+
+          </li>
           <li id="l3"><a href="https://www.ea.com/games/apex-legends"
             target="blank">
              <button style="background-color:black; color: white;
@@ -81,10 +89,11 @@
          Platypus Ghost
          <img src="https://www.mandatory.gg/wp-content/uploads/apexlegends-characters-loba-portrait.png" style="width: 100%; height: auto;">
          <div>
-         I have no idea what this guy does. seriously who is he? 
+         Walking black market, will panick if fired at. 
         </div>
        <!-- I dont like how these borders are not centered
          but i'm not wasting time to figure that out. -->
-    
+         <script src="home.js"></script>
+      
     </body>
 </html>
